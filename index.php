@@ -20,7 +20,9 @@
         <script src="assets/js/fontawesome.js"></script>  
     </head>  
 
-    <body class="d-flex flex-column min-vh-100">  
+    <body class="d-flex flex-column min-vh-100">
+        
+        <span id="forkongithub"><a href="https://github.com/adhirsaurio/cawfy-template">Fork me on GitHub</a></span>
 
         <div class="container mb-5">  
             <div class="mb-5"></div>
@@ -30,7 +32,7 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th><button type="button" name="delete_all" id="delete_all" class="btn btn-danger btn-xs">Delete <i class="fa fa-trash"></i></button></th>
+                        <th><button type="button" name="delete_all" id="delete_all" class="btn btn-danger btn-xs btn-md">Delete <i class="fa fa-trash"></i></button></th>
                         <th>Name</th>
                         <th>Address</th>
                         <th>Gender</th>

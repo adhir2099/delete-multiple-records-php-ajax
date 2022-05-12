@@ -1,3 +1,3 @@
 <?php
-    $connect = new PDO("mysql:host=localhost;dbname=databaseName;charset=utf8", "user", "password");
+    $connect = new PDO("mysql:host=localhost;dbname=noobielogin;charset=utf8", "root", "");
 ?>
