@@ -1,9 +1,5 @@
 <?php
     include('dbcon.php');
-    $query = "SELECT * FROM employees ORDER BY name ASC";
-    $statement = $connect->prepare($query);
-    $statement->execute();
-    $result = $statement->fetchAll();
 ?>
 
 <html>  
@@ -62,14 +58,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="lead mb-0">Delete multiple records with php and ajax <a href="https://github.com/adhirsaurio?tab=repositories"><i class="fab fa-github-alt"></i></a></p>
+                        <p class="lead mb-0">Delete multiple records with php and ajax <a href="https://github.com/adhirsaurio/delete-multiple-records-php-ajax"><i class="fab fa-github-alt"></i></a></p>
                     </div>
                 </div>
             </div>
         </footer>
 
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Delete multiple records with php and ajax © 2022</small></div>
+            <div class="container"><small>Delete multiple records with php and ajax © 2023</small></div>
         </div>
 
     </body>  
