@@ -1,6 +1,10 @@
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-ff69b4)
 ![Jquery](https://img.shields.io/badge/jquery-3.5.1-orange)
-# delete-multiple-records-php-ajax
+![Jquery](https://img.shields.io/badge/Jquery-Ajax-yellowgreen)
+![Php](https://img.shields.io/badge/PHP-8-blue)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-blue)
+
+# Delete multiple records with php and ajax
 Delete multiple records with php and ajax, you can delete either 1 record or multiple records.
 
 ## Libraries included

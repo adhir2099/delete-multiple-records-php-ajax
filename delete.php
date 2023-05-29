@@ -1,15 +1,13 @@
 <?php
 
-include('dbcon.php');
+    include('dbcon.php');
 
-if(isset($_POST["checkbox_value"]))
-{
- for($count = 0; $count < count($_POST["checkbox_value"]); $count++)
- {
-  $query = "DELETE FROM employees WHERE id = '".$_POST['checkbox_value'][$count]."'";
-  $statement = $connect->prepare($query);
-  $statement->execute();
- }
-}
+    if(isset($_POST["checkbox_value"])){
+        $ids = $_POST['checkbox_value'];
+        $placeholders = rtrim(str_repeat('?,', count($ids)), ',');
+        $query = "DELETE FROM employees WHERE id IN ($placeholders)";
+        $statement = $connect->prepare($query);
+        $statement->execute($ids);
+    }
 
 ?>

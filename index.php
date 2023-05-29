@@ -1,6 +1,4 @@
-<?php
-    include('dbcon.php');
-?>
+<?php include('dbcon.php'); ?>
 
 <html>  
     <head>
@@ -18,7 +16,7 @@
 
     <body class="d-flex flex-column min-vh-100">
         
-        <span id="forkongithub"><a href="https://github.com/adhirsaurio/cawfy-template">Fork me on GitHub</a></span>
+        <span id="forkongithub"><a href="https://github.com/adhirsaurio/delete-multiple-records-php-ajax">Fork me on GitHub</a></span>
 
         <div class="container mb-5">  
             <div class="mb-5"></div>
@@ -64,10 +62,6 @@
             </div>
         </footer>
 
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Delete multiple records with php and ajax © 2023</small></div>
-        </div>
-
     </body>  
 </html> 
 
@@ -83,9 +77,9 @@
         });
 
         $('#delete_all').click(function(){
-            var checkbox = $('.delete_checkbox:checked');
+            let checkbox = $('.delete_checkbox:checked');
             if(checkbox.length > 0){
-                var checkbox_value = [];
+                let checkbox_value = [];
                 $(checkbox).each(function(){
                     checkbox_value.push($(this).val());
                 });
