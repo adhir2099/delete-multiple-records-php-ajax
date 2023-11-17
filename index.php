@@ -5,7 +5,7 @@
         <title>Delete multiple records with php and ajax</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="author" content="Adhirsaurio" />
+        <meta name="author" content="Adhir2099" />
         <meta name="description" content="Delete multiple records with php and ajax" />
         <link href="assets/css/styles.css" rel="stylesheet" />
         <script src="assets/js/jquery.min.js"></script>
@@ -16,7 +16,7 @@
 
     <body class="d-flex flex-column min-vh-100">
         
-        <span id="forkongithub"><a href="https://github.com/adhirsaurio/delete-multiple-records-php-ajax">Fork me on GitHub</a></span>
+        <span id="forkongithub"><a href="https://github.com/adhir2099/delete-multiple-records-php-ajax">Fork me on GitHub</a></span>
 
         <div class="container mb-5">  
             <div class="mb-5"></div>
@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="lead mb-0">Delete multiple records with php and ajax <a href="https://github.com/adhirsaurio/delete-multiple-records-php-ajax"><i class="fab fa-github-alt"></i></a></p>
+                        <p class="lead mb-0">Delete multiple records with php and ajax <a href="https://github.com/adhir2099/delete-multiple-records-php-ajax"><i class="fab fa-github-alt"></i></a></p>
                     </div>
                 </div>
             </div>
